@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, RedirectFunction, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import routes from './Config/routes.js';
 
 function App() {
