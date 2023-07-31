@@ -1,6 +1,6 @@
 const ROOT_URL = 'https://secret-hamlet-03431.herokuapp.com';
 
-export async function loginuser(dispatch, loginPayload) {
+export async function loginUser(dispatch, loginPayload) {
     const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json'},

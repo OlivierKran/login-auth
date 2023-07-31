@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Redirect, Route, Routes } from 'react-router-dom';
-import { AuthProvider } from './Context/context.js';
+import { AuthProvider } from './Context/context';
 import routes from './Config/routes.js';
 
 function App() {
