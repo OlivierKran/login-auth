@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Routes>
           {routes.map((route) => (
-            <Route key={route.path} path={route.path} element={route.element} />
+            <Route key={route.path} path={route.path} element={route.element} isPrivate={route.isPrivate}/>
           ))}
         </Routes>
       </Router>
