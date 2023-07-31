@@ -6,7 +6,6 @@ export default function Login(props) {
         <div className={styles.container}>
             <div className={styles.formContainer}>
                 <h1>Login Page</h1>
-
                 <form>
                     <div className={styles.loginForm}>
                         <div className={styles.loginFormItem}>
