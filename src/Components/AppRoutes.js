@@ -19,3 +19,5 @@ const AppRoutes = ({ element: Element, path, isPrivate, ...rest}) => {
         />
     )
 }
+
+export default AppRoutes;
